@@ -1,0 +1,29 @@
+{
+  "name": "themes",
+  "version": "0.1.0",
+  "description": "Full-interface themes for Claude Code, terminal and desktop: a colour theme, a restyled transcript, tool rows and spinner, and a matching usage bar. Switch live with /themes.",
+  "author": {
+    "name": "itsmemac",
+    "url": "https://github.com/itsmemac"
+  },
+  "repository": "https://github.com/itsmemac/Claude-Mods",
+  "keywords": [
+    "theme",
+    "themes",
+    "neon",
+    "dracula",
+    "nord",
+    "solarized",
+    "colors",
+    "status-bar",
+    "mod"
+  ],
+  "userConfig": {
+    "theme": {
+      "type": "string",
+      "title": "Starting theme",
+      "description": "Theme to start with: classic, cyberpunk, neon (default), ocean, sunset, forest, dracula, nord, gruvbox, synthwave, candy, matrix, solarized, mono or minimal. Switch any time with /themes; your pick is remembered.",
+      "default": "neon"
+    }
+  }
+}

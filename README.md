@@ -7,6 +7,7 @@ A collection of small, installable mods that customise the Claude Code interface
 | Mod | What it does |
 | --- | --- |
 | [usage-bar](usage-bar/README.md) | A responsive, full-width status bar above the prompt with live context, 5-hour and weekly usage meters, in fifteen themes. |
+| [themes](themes/README.md) | Full-interface themes for terminal and desktop: restyled messages, tool rows, spinner and usage bar. Fifteen themes, switch live with `/themes`. |
 
 ![usage-bar](usage-bar/docs/img/classic.svg)
 

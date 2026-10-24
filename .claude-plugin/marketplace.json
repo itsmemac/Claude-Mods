@@ -1,12 +1,22 @@
 {
   "name": "claude-mods",
-  "owner": { "name": "itsmemac", "url": "https://github.com/itsmemac" },
-  "metadata": { "description": "A collection of mods that customise the Claude Code interface." },
+  "owner": {
+    "name": "itsmemac",
+    "url": "https://github.com/itsmemac"
+  },
+  "metadata": {
+    "description": "A collection of mods that customise the Claude Code interface."
+  },
   "plugins": [
     {
       "name": "usage-bar",
       "source": "./usage-bar",
       "description": "A responsive status bar above the prompt with live context, 5-hour and weekly usage meters."
+    },
+    {
+      "name": "themes",
+      "source": "./themes",
+      "description": "Full-interface themes for Claude Code, terminal and desktop: restyled messages, tool rows, spinner and usage bar. Fifteen themes, switch live with /themes."
     }
   ]
 }

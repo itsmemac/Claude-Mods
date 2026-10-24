@@ -163,7 +163,7 @@ export const register: Register = (on, options) => {
     const now = await $.clock.now()
     // Other surfaces draw proportional text, so a reported column holds less than a terminal cell
     const reported = e.viewport?.columns ?? 100
-    const cols = e.surface === 'terminal' ? reported : Math.floor(reported * 0.6)
+    const cols = e.surface === 'terminal' ? reported : Math.floor(reported * 0.85)
     // full: notes shown; medium: bars only; narrow: percentages only, no border below 40
     const mode = cols >= 96 ? 'full' : cols >= 64 ? 'medium' : 'narrow'
     // Each meter wants at least this much room; when the row cannot hold three of them they
