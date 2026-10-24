@@ -1,0 +1,24 @@
+{
+  "name": "usage-bar",
+  "version": "0.1.0",
+  "description": "A responsive status bar above the prompt with live context, 5-hour and weekly usage meters, in several themes.",
+  "author": {
+    "name": "itsmemac",
+    "url": "https://github.com/itsmemac"
+  },
+  "repository": "https://github.com/itsmemac/Claude-Mods",
+  "keywords": [
+    "status-bar",
+    "usage",
+    "context",
+    "mod"
+  ],
+  "userConfig": {
+    "theme": {
+      "type": "string",
+      "title": "Theme",
+      "description": "Theme name: classic (default), cyberpunk, neon, ocean, sunset, forest, dracula, nord, gruvbox, synthwave, candy, matrix, solarized, mono or minimal. An unknown name falls back to classic.",
+      "default": "classic"
+    }
+  }
+}

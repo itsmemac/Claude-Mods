@@ -1,0 +1,12 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "itsmemac", "url": "https://github.com/itsmemac" },
+  "metadata": { "description": "A collection of mods that customise the Claude Code interface." },
+  "plugins": [
+    {
+      "name": "usage-bar",
+      "source": "./usage-bar",
+      "description": "A responsive status bar above the prompt with live context, 5-hour and weekly usage meters."
+    }
+  ]
+}
